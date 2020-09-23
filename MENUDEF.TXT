@@ -134,6 +134,12 @@ OptionMenu "BrutalDoomOptionsLevel"
   StaticText "(Submachinegun, Assault Shotgun, Railgun, etc.)"
   StaticText " "
   
+  Option "Screen Effects", "bd_ScreenFX", "YesOrNo"
+  StaticText "Enables Screen Effects on HUD such as Blood Splashing and Bullet Holes"
+   StaticText " "
+   StaticText " "
+  
+  
   Option "New Enemies", "bd_disablenewenemies", "DisabledOption"
   Option "Footstep Sounds", "bd_footstepsounds", "YesOrNo"
   Option "Spawn Demon Spheres", "bd_disabledemonspheres", "YesOrNoFalse"
