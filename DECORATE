@@ -179,6 +179,9 @@ damage 0
 #include "Actors/MageFamiliars/Scimitar.txt"
 #include "Actors/MageFamiliars/Warrior.txt"
 #include "Actors/MageFamiliars/FireSerpent.txt"
+#include "Actors/MageFamiliars/Werecat.txt"
+#include "Actors/MageFamiliars/Minotaur.txt"
+#include "Actors/MageFamiliars/IceGolem.txt"
 
 //Meat Shields
 #include "Actors/MeatShields/ZmanShield.txt"
