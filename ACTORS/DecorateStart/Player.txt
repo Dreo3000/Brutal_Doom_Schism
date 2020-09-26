@@ -72,7 +72,7 @@ ACTOR Doomer : PlayerPawn Replaces DoomPlayer
 	Player.StartItem "NeverSelectedShotgun", 1
 	Player.JumpZ 7.4
 	Player.CrouchSprite "PLYC"
-	Player.DamageScreenColor "Red", 2.0
+	//Player.DamageScreenColor "Red", 2.0
 	States
 	{
 	
