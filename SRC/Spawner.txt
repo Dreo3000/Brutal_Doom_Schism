@@ -76,18 +76,25 @@ Script "BDReleaseObj" (int tid)
 
 Script "Get_Your_own_Tid_Now!" (void)
 {
-    Thing_ChangeTID (0, NextTID ());
-	SetUserVariable(0, "user_brandnewtid", ActivatorTID());
-	SetResultValue(ActivatorTID ());
+	SetUserVariable(0, "user_brandnewtid", NextTID ());
+	SetResultValue(NextTID());
 }
 
 Script "Live_Check" (int arg1)
 {
-	int MinionHealth = GetActorProperty(arg1, APROP_HEALTH);
-	if (MinionHealth <= 0)
+	int MonsterStatus = GetActorProperty(arg1, APROP_HEALTH);
+	if (MonsterStatus <= 0)
 	{
-		SetActorState(0, "Execute");
+		SetResultValue(0);
 	}
+}
+
+Script "Get_Spawner_Status" (int arg1)
+{
+	int X = GetActorX(arg1);
+	int Y = GetActorY(arg1);
+	int Z = GetActorZ(arg1);
+	SetActorPosition(0, X, Y, Z, 0);
 }
 
 Script "Schism_Spawner" (int tid)
@@ -131,6 +138,16 @@ Script "Schism_Spawner" (int tid)
 	else if (ActorClass == "Cacodemon_Spawner")
 	{
 		ACS_NamedExecuteAlways("Schism_CacodemonSpawner", 0, 0, 0);
+		terminate;
+	}
+	else if (ActorClass == "Mancubus_Spawner")
+	{
+		ACS_NamedExecuteAlways("Schism_FatsoSpawner", 0, 0, 0);
+		terminate;
+	}
+	else if (ActorClass == "Arachnotron_Spawner")
+	{
+		ACS_NamedExecuteAlways("Schism_FatsoSpawner", 0, 0, 0);
 		terminate;
 	}
 	else if (ActorClass == "Archvile_Spawner")
@@ -524,6 +541,27 @@ Script "Schism_CacodemonSpawner" (void)
 		{
 			case 1:
 				SetActorState(0, "SpiderUpgrade");
+				break;
+				
+			case 2:
+				SetActorState(0, "RealSpawn");
+				break;
+		}
+	}
+	else
+	{
+		SetActorState(0, "RealSpawn");
+	}
+}
+
+Script "Schism_FatsoSpawner" (void)
+{
+	if (AvatarPresence == 1)
+	{
+		Switch (Random(1, 2))
+		{
+			case 1:
+				SetActorState(0, "AvatarUpgrade");
 				break;
 				
 			case 2:

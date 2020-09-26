@@ -652,3 +652,211 @@ brightmap sprite SHTIH0 { map "brightmaps/doom/SHTIAB.png" disablefullbright }
 brightmap sprite SHTII0 { map "brightmaps/doom/SHTIAB.png" disablefullbright }
 brightmap sprite SH81B0 { map "brightmaps/doom/SH81AB.png" disablefullbright }
 brightmap sprite SH81C0 { map "brightmaps/doom/SH81AB.png" disablefullbright }
+
+//FROST BY SCHRODINGER CAT//
+BrightMap Sprite FRZRA0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRZXA0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRZRB0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRZXB0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRZRC0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRZXC0.png"
+	DisableFullBright
+}
+BrightMap Sprite FR1DA0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FR1XA0.png"
+	DisableFullBright
+}
+BrightMap Sprite FR1DB0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FR1XB0.png"
+	DisableFullBright
+}
+BrightMap Sprite FR1DC0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FR1XC0.png"
+	DisableFullBright
+}
+BrightMap Sprite FREKA0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FREXA0.png"
+	DisableFullBright
+}
+BrightMap Sprite FREKB0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FREXB0.png"
+	DisableFullBright
+}
+BrightMap Sprite FREKC0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FREXC0.png"
+	DisableFullBright
+}
+BrightMap Sprite FREKD0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FREXD0.png"
+	DisableFullBright
+}
+BrightMap Sprite FREKE0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FREXE0.png"
+	DisableFullBright
+}
+BrightMap Sprite FREKF0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FREXF0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRFIA0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRXXA0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRFIB0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRXXB0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRFIC0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRXXC0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRFID0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRXXD0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRFIE0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRXXE0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRFIF0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRXXF0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRFIG0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRXXG0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRFIH0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRXXG0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRFII0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRXXG0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRFIJ0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRXXG0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRNAA0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRAXA0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRRLA0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRRXA0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRRLB0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRRXB0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRRLC0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRRXC0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRRLD0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRRXD0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRRLE0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRRXE0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRRLF0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRRXF0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRRLG0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRRXG0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRRLH0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRRXH0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRRLI0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRRXI0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRRLJ0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRRXJ0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRRLK0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRRXK0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRRLL0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRRXL0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRRLM0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FRRXM0.png"
+	DisableFullBright
+}
+
+BrightMap Sprite FRDDA0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FREXE0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRDDB0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FREXD0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRDDC0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FREXC0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRDDD0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FREXB0.png"
+	DisableFullBright
+}
+BrightMap Sprite FRDDE0
+{
+    Map "Sprites/Weapons/EXTENDED_FIREARMS/FreezeGun/brightmaps/FREXA0.png"
+	DisableFullBright
+}
