@@ -332,12 +332,7 @@ ACTOR DemonRuneMix: CustomInventory
 	Pickup:
 	    TNT1 A 1
 		TNT1 A 0 A_TakeInventory("PowerInvulnerable", 1)
-		TNT1 A 0 A_Jump(128, "Pickup2")
 		TNT1 A 0 A_GiveInventory("DemonRuneBaron", 1)
-		Stop
-	Pickup2:
-		TNT1 A 1
-	    TNT1 A 0 A_GiveInventory("DemonRuneRevenant", 1)
 		Stop
 	Cancels:
 		TNT1 A 0
