@@ -1010,16 +1010,6 @@ Actor RifleSpread : Inventory
 inventory.maxamount 6
 }
 
-Actor FiredSecondary : Inventory
-{
-inventory.maxamount 1
-}
-
-Actor FiredPrimary : Inventory
-{
-inventory.maxamount 1
-}
-
 Actor StopDualWield : Inventory
 {
 inventory.maxamount 1
