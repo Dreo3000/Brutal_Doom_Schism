@@ -988,10 +988,6 @@
 	{
 	inventory.maxamount 1
 	}
-	Actor BloodSplasherz : Inventory
-	{
-	inventory.maxamount 1
-	}
 	Actor AnimuGore : Inventory//bloodammount_666 easter egg
 	{
 	inventory.maxamount 1

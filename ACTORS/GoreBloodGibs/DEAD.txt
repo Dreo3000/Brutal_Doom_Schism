@@ -141,7 +141,7 @@
 		damagefactor "ExtremePunches", 2.0
 		damagefactor "SuperPunch", 2.0
 		damagefactor "ssg", 5000.0
-		BloodType "DeadBlood", "SawBlood", "SawBlood"
+		//BloodType "DeadBlood", "SawBlood", "SawBlood"
 		States    {
 		Spawn:
 		PLDH A 3000 
